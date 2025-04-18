@@ -1,0 +1,4 @@
+panel
+pandas
+openpyxl
+bokeh
