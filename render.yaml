@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: timesheet-panel-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: panel serve Timesheet_app.py --address=0.0.0.0 --port=10000 --allow-websocket-origin=timesheet-panel-app.onrender.com
+    plan: free
